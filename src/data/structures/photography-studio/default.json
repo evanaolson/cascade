@@ -1,0 +1,190 @@
+{
+  "businessType": "photography-studio",
+  "businessName": "Photography Studio",
+  "philosophy": "default",
+  "philosophyName": "Johnny Decimal",
+  "description": "Complete structure for photography studios managing sessions, retouching, client delivery, and portfolio.",
+  "lastUpdated": "2025-10-17",
+  "structure": [
+    {
+      "name": "10-19-client-sessions",
+      "description": "Client photography sessions and shoots",
+      "children": [
+        {
+          "name": "11-active-sessions",
+          "description": "Currently in progress sessions"
+        },
+        {
+          "name": "12-upcoming-bookings",
+          "description": "Scheduled future sessions"
+        },
+        {
+          "name": "13-completed-sessions",
+          "description": "Delivered and archived sessions"
+        }
+      ]
+    },
+    {
+      "name": "20-29-raw-files",
+      "description": "Original RAW files and camera captures",
+      "children": [
+        {
+          "name": "21-by-date",
+          "description": "RAW files organized chronologically"
+        },
+        {
+          "name": "22-by-client",
+          "description": "RAW files organized by client"
+        },
+        {
+          "name": "23-by-session-type",
+          "description": "Organized by portrait, wedding, event, etc."
+        },
+        {
+          "name": "24-backup-archives",
+          "description": "Archived RAW file backups"
+        }
+      ]
+    },
+    {
+      "name": "30-39-editing-retouching",
+      "description": "Photo editing and retouching workflow",
+      "children": [
+        {
+          "name": "31-culling-selects",
+          "description": "Photo selection, culling, star ratings"
+        },
+        {
+          "name": "32-editing-in-progress",
+          "description": "Photos currently being edited"
+        },
+        {
+          "name": "33-retouching",
+          "description": "Advanced retouching projects"
+        },
+        {
+          "name": "34-presets-actions",
+          "description": "Lightroom presets, Photoshop actions"
+        }
+      ]
+    },
+    {
+      "name": "40-49-client-delivery",
+      "description": "Finished photos ready for client delivery",
+      "children": [
+        {
+          "name": "41-web-resolution",
+          "description": "Web-sized JPEGs for online galleries"
+        },
+        {
+          "name": "42-print-ready",
+          "description": "High-res print-ready files"
+        },
+        {
+          "name": "43-online-galleries",
+          "description": "Client gallery links, proofing"
+        },
+        {
+          "name": "44-print-orders",
+          "description": "Prints, albums, products ordered by clients"
+        }
+      ]
+    },
+    {
+      "name": "50-59-portfolio-marketing",
+      "description": "Portfolio work and marketing content",
+      "children": [
+        {
+          "name": "51-portfolio-pieces",
+          "description": "Best work for portfolio and website"
+        },
+        {
+          "name": "52-website-content",
+          "description": "Website images, blog posts, galleries"
+        },
+        {
+          "name": "53-social-media",
+          "description": "Instagram, Facebook, social media content"
+        },
+        {
+          "name": "54-marketing-materials",
+          "description": "Business cards, flyers, promo materials"
+        },
+        {
+          "name": "55-brand-assets",
+          "description": "Logo, brand guidelines, templates"
+        }
+      ]
+    },
+    {
+      "name": "60-69-studio-resources",
+      "description": "Backgrounds, props, and studio assets",
+      "children": [
+        {
+          "name": "61-backgrounds",
+          "description": "Studio backdrops, digital backgrounds"
+        },
+        {
+          "name": "62-overlays-textures",
+          "description": "Photo overlays, textures, creative assets"
+        },
+        {
+          "name": "63-props-inventory",
+          "description": "Studio props, wardrobe, accessories"
+        },
+        {
+          "name": "64-location-guides",
+          "description": "Shooting location info, permits"
+        }
+      ]
+    },
+    {
+      "name": "70-79-client-management",
+      "description": "Bookings, contracts, and client relations",
+      "children": [
+        {
+          "name": "71-inquiries-leads",
+          "description": "New client inquiries, consultations"
+        },
+        {
+          "name": "72-contracts-agreements",
+          "description": "Photography contracts, model releases"
+        },
+        {
+          "name": "73-client-communications",
+          "description": "Emails, questionnaires, prep docs"
+        },
+        {
+          "name": "74-pricing-packages",
+          "description": "Pricing sheets, package offerings"
+        }
+      ]
+    },
+    {
+      "name": "80-89-business-operations",
+      "description": "Finance, operations, and equipment",
+      "children": [
+        {
+          "name": "81-invoices-payments",
+          "description": "Client invoices, payment tracking"
+        },
+        {
+          "name": "82-expenses",
+          "description": "Business expenses, receipts, taxes"
+        },
+        {
+          "name": "83-equipment",
+          "description": "Camera gear inventory, maintenance"
+        },
+        {
+          "name": "84-insurance-legal",
+          "description": "Business insurance, legal documents"
+        },
+        {
+          "name": "85-education-training",
+          "description": "Workshops, courses, skill development"
+        }
+      ]
+    }
+  ]
+}

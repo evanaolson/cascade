@@ -1,0 +1,200 @@
+{
+  "businessType": "marketing-agency",
+  "businessName": "Marketing Agency",
+  "philosophy": "default",
+  "philosophyName": "Johnny Decimal",
+  "description": "Full-service marketing agency structure covering campaigns, clients, creative assets, and multi-channel marketing.",
+  "lastUpdated": "2025-10-17",
+  "structure": [
+    {
+      "name": "10-19-client-accounts",
+      "description": "Client management and account organization",
+      "children": [
+        {
+          "name": "11-active-clients",
+          "description": "Currently serviced client accounts"
+        },
+        {
+          "name": "12-onboarding",
+          "description": "New client onboarding, discovery"
+        },
+        {
+          "name": "13-client-archives",
+          "description": "Past client work and archives"
+        }
+      ]
+    },
+    {
+      "name": "20-29-campaigns",
+      "description": "Marketing campaigns and initiatives",
+      "children": [
+        {
+          "name": "21-active-campaigns",
+          "description": "Currently running campaigns"
+        },
+        {
+          "name": "22-campaign-planning",
+          "description": "Upcoming campaigns in planning"
+        },
+        {
+          "name": "23-campaign-reports",
+          "description": "Campaign performance reports, analytics"
+        },
+        {
+          "name": "24-completed-campaigns",
+          "description": "Finished campaign archives"
+        }
+      ]
+    },
+    {
+      "name": "30-39-creative-production",
+      "description": "Creative assets and content production",
+      "children": [
+        {
+          "name": "31-creative-briefs",
+          "description": "Campaign briefs, creative direction"
+        },
+        {
+          "name": "32-graphic-design",
+          "description": "Design files, ad creatives, graphics"
+        },
+        {
+          "name": "33-copywriting",
+          "description": "Ad copy, content, messaging"
+        },
+        {
+          "name": "34-video-production",
+          "description": "Video ads, promotional videos"
+        },
+        {
+          "name": "35-photography",
+          "description": "Photo shoots, product photography"
+        }
+      ]
+    },
+    {
+      "name": "40-49-digital-marketing",
+      "description": "Digital channels and online marketing",
+      "children": [
+        {
+          "name": "41-paid-advertising",
+          "description": "Google Ads, Facebook Ads, paid campaigns"
+        },
+        {
+          "name": "42-social-media",
+          "description": "Social media management, content calendars"
+        },
+        {
+          "name": "43-email-marketing",
+          "description": "Email campaigns, newsletters, automation"
+        },
+        {
+          "name": "44-seo-sem",
+          "description": "SEO strategy, keyword research, SEM"
+        },
+        {
+          "name": "45-website-landing-pages",
+          "description": "Website projects, landing page design"
+        }
+      ]
+    },
+    {
+      "name": "50-59-brand-strategy",
+      "description": "Brand development and strategic planning",
+      "children": [
+        {
+          "name": "51-brand-development",
+          "description": "Brand strategy, positioning, voice"
+        },
+        {
+          "name": "52-market-research",
+          "description": "Market analysis, competitor research, surveys"
+        },
+        {
+          "name": "53-strategy-docs",
+          "description": "Marketing strategies, go-to-market plans"
+        },
+        {
+          "name": "54-client-personas",
+          "description": "Target audience, buyer personas"
+        }
+      ]
+    },
+    {
+      "name": "60-69-media-buying",
+      "description": "Media planning and ad buying",
+      "children": [
+        {
+          "name": "61-media-plans",
+          "description": "Media planning, channel mix, budgets"
+        },
+        {
+          "name": "62-media-buys",
+          "description": "Ad placements, insertion orders"
+        },
+        {
+          "name": "63-vendor-relationships",
+          "description": "Media vendors, publisher contacts"
+        }
+      ]
+    },
+    {
+      "name": "70-79-analytics-reporting",
+      "description": "Performance tracking and client reporting",
+      "children": [
+        {
+          "name": "71-analytics-data",
+          "description": "Campaign data, metrics, KPIs"
+        },
+        {
+          "name": "72-client-reports",
+          "description": "Monthly reports, dashboards, presentations"
+        },
+        {
+          "name": "73-ab-testing",
+          "description": "A/B tests, experiments, optimizations"
+        }
+      ]
+    },
+    {
+      "name": "80-89-agency-resources",
+      "description": "Templates, brand assets, and agency tools",
+      "children": [
+        {
+          "name": "81-templates",
+          "description": "Proposal templates, report templates"
+        },
+        {
+          "name": "82-agency-branding",
+          "description": "Agency logo, brand assets, style guide"
+        },
+        {
+          "name": "83-stock-assets",
+          "description": "Stock photos, music, fonts, resources"
+        }
+      ]
+    },
+    {
+      "name": "90-99-business-operations",
+      "description": "Sales, finance, HR, and operations",
+      "children": [
+        {
+          "name": "91-proposals-contracts",
+          "description": "Client proposals, contracts, SOWs"
+        },
+        {
+          "name": "92-finance",
+          "description": "Invoices, expenses, budgets"
+        },
+        {
+          "name": "93-hr-team",
+          "description": "Team, hiring, employee records"
+        },
+        {
+          "name": "94-agency-marketing",
+          "description": "Agency's own marketing, case studies"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "businessType": "saas-startup",
+  "businessName": "SaaS Startup",
+  "philosophy": "gtd-filing",
+  "philosophyName": "GTD Filing",
+  "description": "Getting Things Done methodology with simple A-Z alphabetical filing. Fast retrieval in 60 seconds or less, minimal depth for agile teams.",
+  "lastUpdated": "2025-10-17",
+  "structure": [
+    {
+      "name": "A-Analytics",
+      "description": "All analytics, metrics, dashboards, and reports"
+    },
+    {
+      "name": "B-Brand",
+      "description": "Brand guidelines, logos, marketing templates"
+    },
+    {
+      "name": "C-Customers",
+      "description": "Customer data, support, success, feedback"
+    },
+    {
+      "name": "D-Design",
+      "description": "UI/UX designs, wireframes, user research"
+    },
+    {
+      "name": "E-Engineering",
+      "description": "Technical docs, architecture, code references"
+    },
+    {
+      "name": "F-Finance",
+      "description": "Financial records, invoices, budgets"
+    },
+    {
+      "name": "H-HR-People",
+      "description": "Employee records, hiring, policies"
+    },
+    {
+      "name": "I-Integrations",
+      "description": "API docs, partner integrations, webhooks"
+    },
+    {
+      "name": "J-Investors",
+      "description": "Pitch decks, updates, board materials"
+    },
+    {
+      "name": "L-Legal",
+      "description": "Contracts, compliance, terms, policies"
+    },
+    {
+      "name": "M-Marketing",
+      "description": "Marketing campaigns, content, social media"
+    },
+    {
+      "name": "O-Operations",
+      "description": "Business operations, processes, tools"
+    },
+    {
+      "name": "P-Product",
+      "description": "Product roadmaps, specs, PRDs, features"
+    },
+    {
+      "name": "S-Sales",
+      "description": "Sales materials, proposals, pipeline"
+    },
+    {
+      "name": "T-Security",
+      "description": "Security policies, compliance, audits"
+    }
+  ]
+}

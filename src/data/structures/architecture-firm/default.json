@@ -1,0 +1,216 @@
+{
+  "businessType": "architecture-firm",
+  "businessName": "Architecture Firm",
+  "philosophy": "default",
+  "philosophyName": "Johnny Decimal",
+  "description": "Professional structure for architecture firms managing projects, drawings, permits, client work, and construction administration.",
+  "lastUpdated": "2025-10-17",
+  "structure": [
+    {
+      "name": "10-19-projects",
+      "description": "Client architecture projects",
+      "children": [
+        {
+          "name": "11-active-projects",
+          "description": "Currently active design and construction projects"
+        },
+        {
+          "name": "12-in-permitting",
+          "description": "Projects in permitting/approval phase"
+        },
+        {
+          "name": "13-under-construction",
+          "description": "Projects in construction administration"
+        },
+        {
+          "name": "14-completed-projects",
+          "description": "Finished and archived projects"
+        }
+      ]
+    },
+    {
+      "name": "20-29-design-development",
+      "description": "Design phases and conceptual work",
+      "children": [
+        {
+          "name": "21-programming",
+          "description": "Project programming, site analysis, requirements"
+        },
+        {
+          "name": "22-schematic-design",
+          "description": "Conceptual designs, sketches, early models"
+        },
+        {
+          "name": "23-design-development",
+          "description": "Detailed design development drawings"
+        },
+        {
+          "name": "24-presentations",
+          "description": "Client presentations, renderings, visualizations"
+        }
+      ]
+    },
+    {
+      "name": "30-39-construction-documents",
+      "description": "Technical drawings and specifications",
+      "children": [
+        {
+          "name": "31-drawings",
+          "description": "Construction drawing sets, CAD/BIM files"
+        },
+        {
+          "name": "32-specifications",
+          "description": "Technical specifications, material specs"
+        },
+        {
+          "name": "33-details",
+          "description": "Construction details, shop drawings"
+        },
+        {
+          "name": "34-revisions",
+          "description": "Drawing revisions, addendums, bulletins"
+        }
+      ]
+    },
+    {
+      "name": "40-49-permits-approvals",
+      "description": "Permitting, zoning, and regulatory approvals",
+      "children": [
+        {
+          "name": "41-zoning",
+          "description": "Zoning applications, variances, approvals"
+        },
+        {
+          "name": "42-building-permits",
+          "description": "Building permit applications, submissions"
+        },
+        {
+          "name": "43-code-compliance",
+          "description": "Building code analysis, compliance docs"
+        },
+        {
+          "name": "44-approvals",
+          "description": "Approved permits, certificates, sign-offs"
+        }
+      ]
+    },
+    {
+      "name": "50-59-construction-administration",
+      "description": "Construction phase services and oversight",
+      "children": [
+        {
+          "name": "51-site-observations",
+          "description": "Site visit reports, observation notes"
+        },
+        {
+          "name": "52-submittals",
+          "description": "Shop drawings, product data, samples"
+        },
+        {
+          "name": "53-rfis-changes",
+          "description": "RFIs, change orders, field questions"
+        },
+        {
+          "name": "54-punch-lists",
+          "description": "Punch lists, deficiency reports, closeout"
+        }
+      ]
+    },
+    {
+      "name": "60-69-visualization-media",
+      "description": "Renderings, models, and visual communications",
+      "children": [
+        {
+          "name": "61-3d-models",
+          "description": "3D models, BIM models, Revit files"
+        },
+        {
+          "name": "62-renderings",
+          "description": "Architectural renderings, visualizations"
+        },
+        {
+          "name": "63-physical-models",
+          "description": "Physical model photos, documentation"
+        },
+        {
+          "name": "64-photography",
+          "description": "Completed project photography"
+        }
+      ]
+    },
+    {
+      "name": "70-79-consultants-coordination",
+      "description": "Consultant coordination and collaboration",
+      "children": [
+        {
+          "name": "71-structural",
+          "description": "Structural engineer drawings and calcs"
+        },
+        {
+          "name": "72-mep",
+          "description": "MEP engineer documents and coordination"
+        },
+        {
+          "name": "73-civil-landscape",
+          "description": "Civil and landscape consultant work"
+        },
+        {
+          "name": "74-specialty-consultants",
+          "description": "Other consultants (lighting, acoustic, etc.)"
+        }
+      ]
+    },
+    {
+      "name": "80-89-client-management",
+      "description": "Client contracts and project administration",
+      "children": [
+        {
+          "name": "81-contracts",
+          "description": "Client agreements, AIA contracts"
+        },
+        {
+          "name": "82-proposals",
+          "description": "Project proposals, fee estimates"
+        },
+        {
+          "name": "83-meetings-correspondence",
+          "description": "Meeting notes, client communications"
+        },
+        {
+          "name": "84-invoicing",
+          "description": "Project invoices, billing, payments"
+        }
+      ]
+    },
+    {
+      "name": "90-99-firm-operations",
+      "description": "Firm management, marketing, and operations",
+      "children": [
+        {
+          "name": "91-portfolio",
+          "description": "Firm portfolio, case studies, awards"
+        },
+        {
+          "name": "92-marketing",
+          "description": "Marketing materials, website, proposals"
+        },
+        {
+          "name": "93-finance",
+          "description": "Financial records, accounting, budgets"
+        },
+        {
+          "name": "94-hr-team",
+          "description": "Team, hiring, employee records"
+        },
+        {
+          "name": "95-insurance-legal",
+          "description": "Professional liability, business legal"
+        },
+        {
+          "name": "96-standards-templates",
+          "description": "Firm standards, CAD templates, libraries"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "businessType": "management-consulting",
+  "businessName": "Management Consulting Firm",
+  "philosophy": "default",
+  "philosophyName": "Johnny Decimal",
+  "description": "Structure for management consulting firms handling client engagements, research, deliverables, and strategic advisory work.",
+  "lastUpdated": "2025-10-17",
+  "structure": [
+    {
+      "name": "10-19-client-engagements",
+      "description": "Active and completed client projects",
+      "children": [
+        {
+          "name": "11-active-engagements",
+          "description": "Currently active client projects"
+        },
+        {
+          "name": "12-proposals-pipeline",
+          "description": "Pending proposals, sales pipeline"
+        },
+        {
+          "name": "13-completed-engagements",
+          "description": "Finished client projects"
+        }
+      ]
+    },
+    {
+      "name": "20-29-research-analysis",
+      "description": "Research, data collection, and analysis",
+      "children": [
+        {
+          "name": "21-market-research",
+          "description": "Industry research, market analysis"
+        },
+        {
+          "name": "22-competitive-analysis",
+          "description": "Competitor research, benchmarking"
+        },
+        {
+          "name": "23-data-analysis",
+          "description": "Client data, quantitative analysis"
+        },
+        {
+          "name": "24-interviews-surveys",
+          "description": "Stakeholder interviews, surveys"
+        }
+      ]
+    },
+    {
+      "name": "30-39-deliverables",
+      "description": "Client deliverables and documentation",
+      "children": [
+        {
+          "name": "31-presentations",
+          "description": "Client presentation decks"
+        },
+        {
+          "name": "32-reports",
+          "description": "Written reports, analysis documents"
+        },
+        {
+          "name": "33-frameworks-models",
+          "description": "Strategic frameworks, financial models"
+        },
+        {
+          "name": "34-implementation-plans",
+          "description": "Roadmaps, action plans, playbooks"
+        }
+      ]
+    },
+    {
+      "name": "40-49-knowledge-management",
+      "description": "Firm knowledge base and methodologies",
+      "children": [
+        {
+          "name": "41-methodologies",
+          "description": "Consulting methodologies, frameworks"
+        },
+        {
+          "name": "42-templates",
+          "description": "Presentation templates, report templates"
+        },
+        {
+          "name": "43-case-studies",
+          "description": "Past case studies, examples"
+        },
+        {
+          "name": "44-research-library",
+          "description": "Industry reports, research archive"
+        }
+      ]
+    },
+    {
+      "name": "50-59-practice-areas",
+      "description": "Specialized consulting practices",
+      "children": [
+        {
+          "name": "51-strategy",
+          "description": "Corporate strategy engagements"
+        },
+        {
+          "name": "52-operations",
+          "description": "Operations consulting work"
+        },
+        {
+          "name": "53-digital-transformation",
+          "description": "Technology and digital transformation"
+        },
+        {
+          "name": "54-organizational-design",
+          "description": "Org design, change management"
+        }
+      ]
+    },
+    {
+      "name": "60-69-client-management",
+      "description": "Client relationships and communications",
+      "children": [
+        {
+          "name": "61-contracts-sows",
+          "description": "Engagement letters, SOWs, MSAs"
+        },
+        {
+          "name": "62-client-communications",
+          "description": "Emails, meeting notes, status updates"
+        },
+        {
+          "name": "63-stakeholder-management",
+          "description": "Stakeholder maps, engagement plans"
+        }
+      ]
+    },
+    {
+      "name": "70-79-business-development",
+      "description": "Sales, proposals, and growth",
+      "children": [
+        {
+          "name": "71-proposals",
+          "description": "RFP responses, proposals"
+        },
+        {
+          "name": "72-pitch-materials",
+          "description": "Pitch decks, capabilities presentations"
+        },
+        {
+          "name": "73-thought-leadership",
+          "description": "White papers, articles, speaking"
+        },
+        {
+          "name": "74-client-relationships",
+          "description": "CRM data, relationship mapping"
+        }
+      ]
+    },
+    {
+      "name": "80-89-firm-operations",
+      "description": "Finance, HR, and internal operations",
+      "children": [
+        {
+          "name": "81-finance",
+          "description": "Financial records, billing, expenses"
+        },
+        {
+          "name": "82-hr-recruiting",
+          "description": "Consultant hiring, team records"
+        },
+        {
+          "name": "83-professional-development",
+          "description": "Training, certifications, learning"
+        },
+        {
+          "name": "84-firm-marketing",
+          "description": "Website, brand, marketing materials"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "businessType": "management-consulting",
+  "businessName": "Management Consulting Firm",
+  "philosophy": "gtd-filing",
+  "philosophyName": "GTD Filing",
+  "description": "Getting Things Done approach with simple A-Z filing. Fast 60-second retrieval for busy consultants.",
+  "lastUpdated": "2025-10-17",
+  "structure": [
+    {
+      "name": "A-Analysis-Research",
+      "description": "All research, data analysis, market studies"
+    },
+    {
+      "name": "C-Clients",
+      "description": "Client files, contracts, communications"
+    },
+    {
+      "name": "D-Deliverables",
+      "description": "Presentations, reports, final deliverables"
+    },
+    {
+      "name": "E-Engagements",
+      "description": "Active and past client engagements"
+    },
+    {
+      "name": "F-Finance",
+      "description": "Financial records, billing, expenses"
+    },
+    {
+      "name": "K-Knowledge-Base",
+      "description": "Methodologies, frameworks, templates"
+    },
+    {
+      "name": "M-Marketing",
+      "description": "Firm marketing, thought leadership"
+    },
+    {
+      "name": "P-Proposals",
+      "description": "RFPs, proposals, pitch materials"
+    },
+    {
+      "name": "T-Team-HR",
+      "description": "Team, recruiting, professional development"
+    }
+  ]
+}

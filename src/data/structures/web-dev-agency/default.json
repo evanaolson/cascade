@@ -1,0 +1,174 @@
+{
+  "businessType": "web-dev-agency",
+  "businessName": "Web Development Agency",
+  "philosophy": "default",
+  "philosophyName": "Johnny Decimal",
+  "description": "Client-focused structure for web development agencies building websites, managing hosting, and providing ongoing maintenance.",
+  "lastUpdated": "2025-10-17",
+  "structure": [
+    {
+      "name": "10-19-client-projects",
+      "description": "Client website projects and work",
+      "children": [
+        {
+          "name": "11-active-builds",
+          "description": "Currently under development"
+        },
+        {
+          "name": "12-maintenance-sites",
+          "description": "Live sites under maintenance contracts"
+        },
+        {
+          "name": "13-completed-projects",
+          "description": "Delivered and archived projects"
+        }
+      ]
+    },
+    {
+      "name": "20-29-design-assets",
+      "description": "Design files, mockups, and brand assets",
+      "children": [
+        {
+          "name": "21-ui-designs",
+          "description": "Website designs, mockups, prototypes"
+        },
+        {
+          "name": "22-graphics-images",
+          "description": "Custom graphics, illustrations, icons"
+        },
+        {
+          "name": "23-client-brand-assets",
+          "description": "Client logos, brand guidelines, fonts"
+        }
+      ]
+    },
+    {
+      "name": "30-39-development",
+      "description": "Code, repositories, and technical resources",
+      "children": [
+        {
+          "name": "31-repositories",
+          "description": "Git repos, source control, branches"
+        },
+        {
+          "name": "32-themes-templates",
+          "description": "Reusable themes, starter templates"
+        },
+        {
+          "name": "33-plugins-extensions",
+          "description": "Custom plugins, modules, extensions"
+        },
+        {
+          "name": "34-code-snippets",
+          "description": "Reusable code snippets, utilities"
+        }
+      ]
+    },
+    {
+      "name": "40-49-hosting-domains",
+      "description": "Hosting, domains, and server management",
+      "children": [
+        {
+          "name": "41-hosting-accounts",
+          "description": "Hosting credentials, server access"
+        },
+        {
+          "name": "42-domain-management",
+          "description": "Domain registrations, DNS, SSL certs"
+        },
+        {
+          "name": "43-server-configs",
+          "description": "Server configurations, deployments"
+        },
+        {
+          "name": "44-backups",
+          "description": "Site backups, database dumps, recovery"
+        }
+      ]
+    },
+    {
+      "name": "50-59-content-seo",
+      "description": "Content creation and SEO services",
+      "children": [
+        {
+          "name": "51-content-writing",
+          "description": "Website copy, blog posts, content"
+        },
+        {
+          "name": "52-seo",
+          "description": "SEO audits, keyword research, optimization"
+        },
+        {
+          "name": "53-analytics",
+          "description": "Analytics setup, reports, insights"
+        }
+      ]
+    },
+    {
+      "name": "60-69-business-operations",
+      "description": "Client management and business operations",
+      "children": [
+        {
+          "name": "61-proposals-contracts",
+          "description": "Project proposals, contracts, SOWs"
+        },
+        {
+          "name": "62-client-communications",
+          "description": "Client emails, meeting notes, updates"
+        },
+        {
+          "name": "63-invoices-payments",
+          "description": "Invoicing, payment tracking, expenses"
+        },
+        {
+          "name": "64-project-management",
+          "description": "Project plans, timelines, task tracking"
+        }
+      ]
+    },
+    {
+      "name": "70-79-marketing-sales",
+      "description": "Agency marketing and business development",
+      "children": [
+        {
+          "name": "71-portfolio",
+          "description": "Portfolio pieces, case studies, screenshots"
+        },
+        {
+          "name": "72-agency-website",
+          "description": "Agency's own website content and updates"
+        },
+        {
+          "name": "73-marketing",
+          "description": "Marketing materials, social media, content"
+        },
+        {
+          "name": "74-sales-materials",
+          "description": "Sales deck, pricing, testimonials"
+        }
+      ]
+    },
+    {
+      "name": "80-89-operations",
+      "description": "Finance, legal, HR, and internal operations",
+      "children": [
+        {
+          "name": "81-finance",
+          "description": "Financial records, accounting, budgets"
+        },
+        {
+          "name": "82-legal",
+          "description": "Business legal, insurance, contracts"
+        },
+        {
+          "name": "83-team-hr",
+          "description": "Employee records, hiring, team docs"
+        },
+        {
+          "name": "84-tools-subscriptions",
+          "description": "Software licenses, tool subscriptions"
+        }
+      ]
+    }
+  ]
+}

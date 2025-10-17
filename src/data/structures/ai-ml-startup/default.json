@@ -1,0 +1,180 @@
+{
+  "businessType": "ai-ml-startup",
+  "businessName": "AI/ML Startup",
+  "philosophy": "default",
+  "philosophyName": "Johnny Decimal",
+  "description": "Structure for AI/ML companies managing datasets, models, experiments, research, and production deployments.",
+  "lastUpdated": "2025-10-17",
+  "structure": [
+    {
+      "name": "10-19-research-development",
+      "description": "Research, experimentation, and model development",
+      "children": [
+        {
+          "name": "11-research-papers",
+          "description": "Research papers, literature reviews, citations"
+        },
+        {
+          "name": "12-experiments",
+          "description": "Experiment logs, notebooks, hyperparameters, results"
+        },
+        {
+          "name": "13-prototypes",
+          "description": "Proof-of-concept models, early prototypes"
+        },
+        {
+          "name": "14-research-meetings",
+          "description": "Research discussions, whiteboards, brainstorms"
+        }
+      ]
+    },
+    {
+      "name": "20-29-datasets",
+      "description": "Training data, validation sets, and data management",
+      "children": [
+        {
+          "name": "21-raw-data",
+          "description": "Original, unprocessed datasets"
+        },
+        {
+          "name": "22-processed-data",
+          "description": "Cleaned, preprocessed, augmented data"
+        },
+        {
+          "name": "23-training-sets",
+          "description": "Training datasets with splits and versions"
+        },
+        {
+          "name": "24-validation-test-sets",
+          "description": "Validation and test datasets"
+        },
+        {
+          "name": "25-data-annotations",
+          "description": "Labels, annotations, ground truth data"
+        },
+        {
+          "name": "26-synthetic-data",
+          "description": "Generated or synthetic training data"
+        }
+      ]
+    },
+    {
+      "name": "30-39-models",
+      "description": "Trained models, model versions, and model registry",
+      "children": [
+        {
+          "name": "31-model-checkpoints",
+          "description": "Training checkpoints, intermediate models"
+        },
+        {
+          "name": "32-production-models",
+          "description": "Production-ready model artifacts"
+        },
+        {
+          "name": "33-model-evaluation",
+          "description": "Evaluation metrics, benchmarks, comparisons"
+        },
+        {
+          "name": "34-model-documentation",
+          "description": "Model cards, architecture docs, datasheets"
+        }
+      ]
+    },
+    {
+      "name": "40-49-engineering",
+      "description": "ML engineering, infrastructure, and production systems",
+      "children": [
+        {
+          "name": "41-ml-pipelines",
+          "description": "Training pipelines, data pipelines, orchestration"
+        },
+        {
+          "name": "42-infrastructure",
+          "description": "Compute infrastructure, GPU clusters, cloud configs"
+        },
+        {
+          "name": "43-deployment",
+          "description": "Model serving, API endpoints, containers"
+        },
+        {
+          "name": "44-monitoring",
+          "description": "Model monitoring, drift detection, observability"
+        },
+        {
+          "name": "45-mlops",
+          "description": "MLOps tools, CI/CD, automation scripts"
+        }
+      ]
+    },
+    {
+      "name": "50-59-product-application",
+      "description": "Product layer, APIs, and user-facing applications",
+      "children": [
+        {
+          "name": "51-application-code",
+          "description": "Frontend, backend, application logic"
+        },
+        {
+          "name": "52-api-documentation",
+          "description": "API docs, SDK documentation, examples"
+        },
+        {
+          "name": "53-user-interfaces",
+          "description": "UI designs, dashboards, visualization tools"
+        }
+      ]
+    },
+    {
+      "name": "60-69-validation-safety",
+      "description": "Model validation, safety, ethics, and compliance",
+      "children": [
+        {
+          "name": "61-model-validation",
+          "description": "Validation reports, safety testing, stress tests"
+        },
+        {
+          "name": "62-bias-fairness",
+          "description": "Bias audits, fairness metrics, mitigation"
+        },
+        {
+          "name": "63-ethics-governance",
+          "description": "Ethics guidelines, AI governance, responsible AI"
+        },
+        {
+          "name": "64-security",
+          "description": "Security testing, adversarial examples, robustness"
+        }
+      ]
+    },
+    {
+      "name": "70-79-business-operations",
+      "description": "Customer engagement, go-to-market, and operations",
+      "children": [
+        {
+          "name": "71-customers",
+          "description": "Customer data, use cases, feedback, support"
+        },
+        {
+          "name": "72-sales-marketing",
+          "description": "Sales materials, marketing, demos, case studies"
+        },
+        {
+          "name": "73-finance",
+          "description": "Financial records, budgets, compute costs"
+        },
+        {
+          "name": "74-legal-ip",
+          "description": "Contracts, patents, IP, data agreements"
+        },
+        {
+          "name": "75-team-hr",
+          "description": "Team, hiring, HR, employee records"
+        },
+        {
+          "name": "76-investors",
+          "description": "Investor materials, updates, board docs"
+        }
+      ]
+    }
+  ]
+}

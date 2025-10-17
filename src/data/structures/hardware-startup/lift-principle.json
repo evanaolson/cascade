@@ -1,0 +1,74 @@
+{
+  "businessType": "hardware-startup",
+  "businessName": "Hardware Startup",
+  "philosophy": "lift-principle",
+  "philosophyName": "LIFT Principle",
+  "description": "Flat, adaptable structure for hardware companies. Minimal nesting, easy to locate files, adapts as manufacturing scales.",
+  "lastUpdated": "2025-10-17",
+  "structure": [
+    {
+      "name": "design",
+      "description": "All design work: industrial, mechanical, electrical, CAD"
+    },
+    {
+      "name": "engineering",
+      "description": "Engineering specs, BOMs, schematics, technical docs"
+    },
+    {
+      "name": "firmware",
+      "description": "Embedded software, firmware, companion apps"
+    },
+    {
+      "name": "prototypes",
+      "description": "Prototype builds, testing, iterations"
+    },
+    {
+      "name": "manufacturing",
+      "description": "Production runs, suppliers, assembly, tooling"
+    },
+    {
+      "name": "quality",
+      "description": "QC procedures, test reports, defect tracking"
+    },
+    {
+      "name": "supply-chain",
+      "description": "Inventory, components, logistics, fulfillment"
+    },
+    {
+      "name": "certifications",
+      "description": "Safety certs, regulatory compliance, testing"
+    },
+    {
+      "name": "patents",
+      "description": "IP filings, patents, trademarks"
+    },
+    {
+      "name": "marketing",
+      "description": "Product marketing, content, trade shows"
+    },
+    {
+      "name": "sales",
+      "description": "Sales materials, distributors, pricing"
+    },
+    {
+      "name": "support",
+      "description": "Customer support, documentation, warranties"
+    },
+    {
+      "name": "finance",
+      "description": "Financial records, budgets, COGS tracking"
+    },
+    {
+      "name": "legal",
+      "description": "Contracts, agreements, legal docs"
+    },
+    {
+      "name": "people",
+      "description": "HR, hiring, employee records"
+    },
+    {
+      "name": "investors",
+      "description": "Investor materials, updates, board docs"
+    }
+  ]
+}

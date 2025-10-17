@@ -1,0 +1,104 @@
+{
+  "businessType": "marketing-agency",
+  "businessName": "Marketing Agency",
+  "philosophy": "campaign-based",
+  "philosophyName": "Campaign-Based",
+  "description": "Organized by marketing campaigns. Each campaign contains strategy, creative, execution, and reporting.",
+  "lastUpdated": "2025-10-17",
+  "structure": [
+    {
+      "name": "campaigns",
+      "description": "Individual marketing campaigns",
+      "children": [
+        {
+          "name": "active",
+          "description": "Currently running campaigns"
+        },
+        {
+          "name": "planning",
+          "description": "Campaigns in development"
+        },
+        {
+          "name": "completed",
+          "description": "Finished campaigns"
+        },
+        {
+          "name": "_campaign-template",
+          "description": "Template for new campaigns",
+          "children": [
+            {
+              "name": "strategy",
+              "description": "Campaign strategy, goals, brief"
+            },
+            {
+              "name": "creative",
+              "description": "All creative assets for this campaign"
+            },
+            {
+              "name": "media",
+              "description": "Media plan, buys, placements"
+            },
+            {
+              "name": "execution",
+              "description": "Campaign deployment, scheduling"
+            },
+            {
+              "name": "analytics",
+              "description": "Performance data, reports"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "clients",
+      "description": "Client accounts and ongoing work",
+      "children": [
+        {
+          "name": "_client-template",
+          "description": "Template for client folders",
+          "children": [
+            {
+              "name": "onboarding",
+              "description": "Contracts, discovery, brand info"
+            },
+            {
+              "name": "campaigns",
+              "description": "Links to client's campaigns"
+            },
+            {
+              "name": "ongoing-work",
+              "description": "Social media, content, maintenance"
+            },
+            {
+              "name": "reporting",
+              "description": "Client reports, meetings"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "creative-library",
+      "description": "Reusable assets and templates",
+      "children": [
+        {
+          "name": "design-assets",
+          "description": "Graphics, templates, design files"
+        },
+        {
+          "name": "copy-library",
+          "description": "Reusable copy, messaging, scripts"
+        },
+        {
+          "name": "media-assets",
+          "description": "Stock photos, videos, music"
+        }
+      ]
+    },
+    {
+      "name": "business-operations",
+      "description": "Agency operations, finance, team"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "businessType": "podcast-studio",
+  "businessName": "Podcast Production Studio",
+  "philosophy": "dam-structure",
+  "philosophyName": "DAM Structure",
+  "description": "Digital Asset Management approach organized by purpose and usage. Ideal for studios managing audio assets across multiple shows and campaigns.",
+  "lastUpdated": "2025-10-17",
+  "structure": [
+    {
+      "name": "content-library",
+      "description": "All audio and video content organized by type",
+      "children": [
+        {
+          "name": "episodes",
+          "description": "Final published episodes",
+          "children": [
+            {
+              "name": "by-show",
+              "description": "Organized by show/series"
+            },
+            {
+              "name": "by-date",
+              "description": "Chronological episode archive"
+            },
+            {
+              "name": "by-guest",
+              "description": "Episodes organized by featured guest"
+            }
+          ]
+        },
+        {
+          "name": "raw-recordings",
+          "description": "Unedited audio recordings and backups"
+        },
+        {
+          "name": "edited-audio",
+          "description": "Edited but not yet finalized audio"
+        },
+        {
+          "name": "audio-clips",
+          "description": "Reusable clips, highlights, soundbites"
+        },
+        {
+          "name": "video-content",
+          "description": "Video recordings, clips, social media"
+        }
+      ]
+    },
+    {
+      "name": "creative-assets",
+      "description": "Graphics, artwork, and visual content",
+      "children": [
+        {
+          "name": "show-branding",
+          "description": "Show logos, cover art, brand assets"
+        },
+        {
+          "name": "episode-artwork",
+          "description": "Episode-specific graphics"
+        },
+        {
+          "name": "social-graphics",
+          "description": "Quote cards, audiograms, promo graphics"
+        },
+        {
+          "name": "templates",
+          "description": "Graphic templates for consistent branding"
+        }
+      ]
+    },
+    {
+      "name": "audio-library",
+      "description": "Reusable audio elements and resources",
+      "children": [
+        {
+          "name": "music",
+          "description": "Intro/outro music, background tracks"
+        },
+        {
+          "name": "sound-effects",
+          "description": "SFX, stingers, transitions"
+        },
+        {
+          "name": "voice-overs",
+          "description": "Ads, announcements, promos"
+        },
+        {
+          "name": "show-elements",
+          "description": "Show-specific audio elements"
+        }
+      ]
+    },
+    {
+      "name": "campaigns",
+      "description": "Marketing and promotional campaigns",
+      "children": [
+        {
+          "name": "launch-campaigns",
+          "description": "Show launches, season premieres"
+        },
+        {
+          "name": "growth-campaigns",
+          "description": "Audience growth, promotion campaigns"
+        },
+        {
+          "name": "sponsor-campaigns",
+          "description": "Sponsor promotions, branded content"
+        }
+      ]
+    },
+    {
+      "name": "distribution",
+      "description": "Publishing and platform management",
+      "children": [
+        {
+          "name": "platform-assets",
+          "description": "Platform-specific requirements, metadata"
+        },
+        {
+          "name": "rss-feeds",
+          "description": "RSS feed management, hosting"
+        },
+        {
+          "name": "transcripts-notes",
+          "description": "Episode transcripts, show notes"
+        }
+      ]
+    },
+    {
+      "name": "production-workflow",
+      "description": "Pre-production and production management",
+      "children": [
+        {
+          "name": "planning",
+          "description": "Content calendar, episode ideas, research"
+        },
+        {
+          "name": "guest-management",
+          "description": "Guest contacts, booking, prep materials"
+        },
+        {
+          "name": "scripts-outlines",
+          "description": "Episode scripts, outlines, questions"
+        }
+      ]
+    },
+    {
+      "name": "monetization",
+      "description": "Revenue streams and commercial content",
+      "children": [
+        {
+          "name": "sponsors",
+          "description": "Sponsor materials, ad copy, tracking"
+        },
+        {
+          "name": "premium-content",
+          "description": "Patreon, members-only content"
+        },
+        {
+          "name": "merchandise",
+          "description": "Merch designs and assets"
+        }
+      ]
+    },
+    {
+      "name": "business-operations",
+      "description": "Finance, legal, analytics, team"
+    }
+  ]
+}

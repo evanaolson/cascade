@@ -1,0 +1,194 @@
+{
+  "businessType": "hardware-startup",
+  "businessName": "Hardware Startup",
+  "philosophy": "iso-15489",
+  "philosophyName": "ISO 15489 Functional",
+  "description": "Function-based classification organized by business functions rather than departments. Built for compliance and regulatory requirements.",
+  "lastUpdated": "2025-10-17",
+  "structure": [
+    {
+      "name": "01-product-lifecycle-management",
+      "description": "Complete product lifecycle from concept to EOL",
+      "children": [
+        {
+          "name": "design-development",
+          "description": "Product design, engineering, prototyping"
+        },
+        {
+          "name": "testing-validation",
+          "description": "Product testing, validation, quality assurance"
+        },
+        {
+          "name": "manufacturing-production",
+          "description": "Manufacturing operations, production management"
+        },
+        {
+          "name": "product-maintenance",
+          "description": "Product updates, revisions, maintenance"
+        }
+      ]
+    },
+    {
+      "name": "02-supply-chain-management",
+      "description": "Procurement, inventory, and logistics functions",
+      "children": [
+        {
+          "name": "procurement",
+          "description": "Supplier selection, purchasing, contracts"
+        },
+        {
+          "name": "inventory-control",
+          "description": "Stock management, warehouse operations"
+        },
+        {
+          "name": "logistics-distribution",
+          "description": "Shipping, freight, distribution operations"
+        }
+      ]
+    },
+    {
+      "name": "03-quality-management",
+      "description": "Quality control, assurance, and improvement",
+      "children": [
+        {
+          "name": "quality-control",
+          "description": "QC procedures, inspections, test results"
+        },
+        {
+          "name": "non-conformance",
+          "description": "Defect tracking, corrective actions, CAPAs"
+        },
+        {
+          "name": "continuous-improvement",
+          "description": "Process improvements, lessons learned"
+        }
+      ]
+    },
+    {
+      "name": "04-regulatory-compliance",
+      "description": "Certifications, regulatory filings, and compliance",
+      "children": [
+        {
+          "name": "product-certifications",
+          "description": "Safety and regulatory certifications"
+        },
+        {
+          "name": "compliance-documentation",
+          "description": "RoHS, REACH, environmental compliance"
+        },
+        {
+          "name": "audit-records",
+          "description": "Audit trails, inspection records"
+        }
+      ]
+    },
+    {
+      "name": "05-intellectual-property",
+      "description": "Patents, trademarks, and IP protection",
+      "children": [
+        {
+          "name": "patents",
+          "description": "Patent applications, filings, prosecution"
+        },
+        {
+          "name": "trademarks-trade-dress",
+          "description": "Trademark registrations, trade dress"
+        },
+        {
+          "name": "trade-secrets",
+          "description": "Confidential information, NDAs"
+        }
+      ]
+    },
+    {
+      "name": "06-customer-relationship-management",
+      "description": "Customer interactions, support, and satisfaction",
+      "children": [
+        {
+          "name": "customer-communications",
+          "description": "Customer inquiries, correspondence"
+        },
+        {
+          "name": "technical-support",
+          "description": "Support cases, troubleshooting, resolutions"
+        },
+        {
+          "name": "warranty-service",
+          "description": "Warranty claims, repairs, returns"
+        }
+      ]
+    },
+    {
+      "name": "07-commercial-operations",
+      "description": "Sales, marketing, and commercial activities",
+      "children": [
+        {
+          "name": "sales-management",
+          "description": "Sales activities, orders, contracts"
+        },
+        {
+          "name": "marketing-communications",
+          "description": "Marketing campaigns, promotional materials"
+        },
+        {
+          "name": "channel-management",
+          "description": "Distributor and channel partner management"
+        }
+      ]
+    },
+    {
+      "name": "08-financial-management",
+      "description": "Financial planning, accounting, and reporting",
+      "children": [
+        {
+          "name": "financial-accounting",
+          "description": "Financial records, transactions, statements"
+        },
+        {
+          "name": "budgeting-forecasting",
+          "description": "Budgets, forecasts, financial planning"
+        },
+        {
+          "name": "cost-management",
+          "description": "COGS tracking, cost analysis, pricing"
+        }
+      ]
+    },
+    {
+      "name": "09-human-resources",
+      "description": "HR functions, employee management, development",
+      "children": [
+        {
+          "name": "recruitment-onboarding",
+          "description": "Hiring, recruitment, employee onboarding"
+        },
+        {
+          "name": "employee-records",
+          "description": "Personnel files, performance reviews"
+        },
+        {
+          "name": "training-development",
+          "description": "Training programs, skill development"
+        }
+      ]
+    },
+    {
+      "name": "10-governance",
+      "description": "Corporate governance, legal, and risk management",
+      "children": [
+        {
+          "name": "corporate-governance",
+          "description": "Board meetings, resolutions, corporate records"
+        },
+        {
+          "name": "legal-affairs",
+          "description": "Legal contracts, filings, litigation"
+        },
+        {
+          "name": "risk-management",
+          "description": "Risk assessments, mitigation strategies"
+        }
+      ]
+    }
+  ]
+}

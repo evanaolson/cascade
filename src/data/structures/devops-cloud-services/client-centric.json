@@ -1,0 +1,80 @@
+{
+  "businessType": "devops-cloud-services",
+  "businessName": "DevOps/Cloud Services Company",
+  "philosophy": "client-centric",
+  "philosophyName": "Client-Centric",
+  "description": "One folder per client containing all infrastructure, configs, and documentation. Simple client-focused hierarchy.",
+  "lastUpdated": "2025-10-17",
+  "structure": [
+    {
+      "name": "clients",
+      "description": "One folder per client with all infrastructure and configs",
+      "children": [
+        {
+          "name": "_template-client",
+          "description": "Template for new client folders",
+          "children": [
+            {
+              "name": "01-onboarding",
+              "description": "Contracts, SLA, initial assessment, kickoff"
+            },
+            {
+              "name": "02-infrastructure",
+              "description": "IaC code, cloud configs, architecture"
+            },
+            {
+              "name": "03-deployments",
+              "description": "CI/CD pipelines, deployment configs"
+            },
+            {
+              "name": "04-monitoring",
+              "description": "Monitoring, alerts, dashboards, logs"
+            },
+            {
+              "name": "05-security",
+              "description": "Security configs, IAM, secrets, compliance"
+            },
+            {
+              "name": "06-documentation",
+              "description": "Architecture docs, runbooks, procedures"
+            },
+            {
+              "name": "07-incidents",
+              "description": "Incident logs, post-mortems, resolutions"
+            },
+            {
+              "name": "08-billing",
+              "description": "Cloud costs, invoices, optimization reports"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "shared-resources",
+      "description": "Shared modules, tools, and templates",
+      "children": [
+        {
+          "name": "terraform-modules",
+          "description": "Reusable Terraform modules"
+        },
+        {
+          "name": "ansible-roles",
+          "description": "Shared Ansible roles and playbooks"
+        },
+        {
+          "name": "scripts-tools",
+          "description": "Automation scripts, utilities"
+        },
+        {
+          "name": "templates",
+          "description": "Infrastructure templates, configs"
+        }
+      ]
+    },
+    {
+      "name": "operations",
+      "description": "Business operations, sales, finance, HR"
+    }
+  ]
+}

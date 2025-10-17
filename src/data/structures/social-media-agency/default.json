@@ -1,0 +1,200 @@
+{
+  "businessType": "social-media-agency",
+  "businessName": "Social Media Management Agency",
+  "philosophy": "default",
+  "philosophyName": "Johnny Decimal",
+  "description": "Structure for social media agencies managing client accounts, content calendars, and campaigns across platforms.",
+  "lastUpdated": "2025-10-17",
+  "structure": [
+    {
+      "name": "10-19-client-accounts",
+      "description": "Client social media accounts and management",
+      "children": [
+        {
+          "name": "11-active-clients",
+          "description": "Currently managed client accounts"
+        },
+        {
+          "name": "12-client-onboarding",
+          "description": "New client setup, brand guidelines"
+        },
+        {
+          "name": "13-past-clients",
+          "description": "Completed or inactive clients"
+        }
+      ]
+    },
+    {
+      "name": "20-29-content-creation",
+      "description": "Content production and asset management",
+      "children": [
+        {
+          "name": "21-graphics",
+          "description": "Social media graphics, templates"
+        },
+        {
+          "name": "22-photography",
+          "description": "Photo shoots, edited photos"
+        },
+        {
+          "name": "23-video-content",
+          "description": "Short-form video, reels, TikToks"
+        },
+        {
+          "name": "24-copywriting",
+          "description": "Captions, copy, hashtag research"
+        },
+        {
+          "name": "25-user-generated-content",
+          "description": "UGC, reposts, community content"
+        }
+      ]
+    },
+    {
+      "name": "30-39-content-calendars",
+      "description": "Content planning and scheduling",
+      "children": [
+        {
+          "name": "31-monthly-calendars",
+          "description": "Monthly content calendars per client"
+        },
+        {
+          "name": "32-scheduled-posts",
+          "description": "Scheduled content, publishing queue"
+        },
+        {
+          "name": "33-content-themes",
+          "description": "Content pillars, themes, strategies"
+        }
+      ]
+    },
+    {
+      "name": "40-49-platform-management",
+      "description": "Platform-specific content and management",
+      "children": [
+        {
+          "name": "41-instagram",
+          "description": "Instagram posts, stories, reels"
+        },
+        {
+          "name": "42-tiktok",
+          "description": "TikTok content, trends"
+        },
+        {
+          "name": "43-facebook",
+          "description": "Facebook posts, groups"
+        },
+        {
+          "name": "44-twitter-x",
+          "description": "Twitter/X posts, threads"
+        },
+        {
+          "name": "45-linkedin",
+          "description": "LinkedIn content, articles"
+        },
+        {
+          "name": "46-youtube",
+          "description": "YouTube shorts, community posts"
+        }
+      ]
+    },
+    {
+      "name": "50-59-campaigns",
+      "description": "Social media campaigns and initiatives",
+      "children": [
+        {
+          "name": "51-campaign-planning",
+          "description": "Campaign briefs, strategies"
+        },
+        {
+          "name": "52-active-campaigns",
+          "description": "Currently running campaigns"
+        },
+        {
+          "name": "53-campaign-assets",
+          "description": "Campaign-specific creative assets"
+        },
+        {
+          "name": "54-campaign-results",
+          "description": "Campaign performance, learnings"
+        }
+      ]
+    },
+    {
+      "name": "60-69-community-management",
+      "description": "Engagement and community interaction",
+      "children": [
+        {
+          "name": "61-engagement",
+          "description": "Comment management, responses"
+        },
+        {
+          "name": "62-dm-management",
+          "description": "Direct message handling"
+        },
+        {
+          "name": "63-crisis-management",
+          "description": "Issue responses, crisis protocols"
+        }
+      ]
+    },
+    {
+      "name": "70-79-analytics-reporting",
+      "description": "Performance tracking and reporting",
+      "children": [
+        {
+          "name": "71-platform-analytics",
+          "description": "Platform insights, native analytics"
+        },
+        {
+          "name": "72-client-reports",
+          "description": "Monthly reports, dashboards"
+        },
+        {
+          "name": "73-competitor-analysis",
+          "description": "Competitor tracking, benchmarks"
+        }
+      ]
+    },
+    {
+      "name": "80-89-influencer-partnerships",
+      "description": "Influencer collaborations and partnerships",
+      "children": [
+        {
+          "name": "81-influencer-outreach",
+          "description": "Influencer contacts, pitches"
+        },
+        {
+          "name": "82-collaborations",
+          "description": "Active partnerships, contracts"
+        },
+        {
+          "name": "83-ugc-creators",
+          "description": "UGC creator management"
+        }
+      ]
+    },
+    {
+      "name": "90-99-operations",
+      "description": "Business operations and client management",
+      "children": [
+        {
+          "name": "91-contracts",
+          "description": "Client contracts, SOWs"
+        },
+        {
+          "name": "92-finance",
+          "description": "Invoices, expenses, budgets"
+        },
+        {
+          "name": "93-team",
+          "description": "Team, freelancers, contractors"
+        },
+        {
+          "name": "94-agency-marketing",
+          "description": "Agency social, portfolio, website"
+        }
+      ]
+    }
+  ]
+}

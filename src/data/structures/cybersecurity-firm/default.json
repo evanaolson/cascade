@@ -1,0 +1,204 @@
+{
+  "businessType": "cybersecurity-firm",
+  "businessName": "Cybersecurity Firm",
+  "philosophy": "default",
+  "philosophyName": "Johnny Decimal",
+  "description": "Secure structure for cybersecurity firms managing penetration tests, security audits, compliance assessments, and incident response.",
+  "lastUpdated": "2025-10-17",
+  "structure": [
+    {
+      "name": "10-19-client-engagements",
+      "description": "Client security assessments and engagements",
+      "children": [
+        {
+          "name": "11-active-engagements",
+          "description": "Currently active client engagements",
+          "children": [
+            {
+              "name": "scoping",
+              "description": "Engagement scoping, SOW, rules of engagement"
+            },
+            {
+              "name": "assessment-data",
+              "description": "Scan results, findings, evidence, screenshots"
+            },
+            {
+              "name": "reporting",
+              "description": "Draft reports, executive summaries, remediation"
+            }
+          ]
+        },
+        {
+          "name": "12-completed-engagements",
+          "description": "Finished and delivered engagements"
+        },
+        {
+          "name": "13-retests",
+          "description": "Remediation retests and validation"
+        }
+      ]
+    },
+    {
+      "name": "20-29-penetration-testing",
+      "description": "Pentesting tools, methodologies, and findings",
+      "children": [
+        {
+          "name": "21-external-pentests",
+          "description": "External network and perimeter testing"
+        },
+        {
+          "name": "22-internal-pentests",
+          "description": "Internal network and privilege escalation"
+        },
+        {
+          "name": "23-web-app-testing",
+          "description": "Web application security assessments"
+        },
+        {
+          "name": "24-mobile-app-testing",
+          "description": "Mobile application security testing"
+        },
+        {
+          "name": "25-wireless-testing",
+          "description": "Wireless network security assessments"
+        },
+        {
+          "name": "26-physical-security",
+          "description": "Physical penetration testing, social engineering"
+        }
+      ]
+    },
+    {
+      "name": "30-39-compliance-auditing",
+      "description": "Compliance assessments and audit services",
+      "children": [
+        {
+          "name": "31-soc2-audits",
+          "description": "SOC 2 Type I/II assessments"
+        },
+        {
+          "name": "32-iso-27001",
+          "description": "ISO 27001 audits and certifications"
+        },
+        {
+          "name": "33-pci-dss",
+          "description": "PCI-DSS compliance assessments"
+        },
+        {
+          "name": "34-hipaa",
+          "description": "HIPAA security assessments"
+        },
+        {
+          "name": "35-gdpr",
+          "description": "GDPR compliance reviews"
+        }
+      ]
+    },
+    {
+      "name": "40-49-vulnerability-management",
+      "description": "Vulnerability scanning and management services",
+      "children": [
+        {
+          "name": "41-vulnerability-scans",
+          "description": "Automated scan results and reports"
+        },
+        {
+          "name": "42-vulnerability-research",
+          "description": "CVE research, exploit analysis, patches"
+        },
+        {
+          "name": "43-threat-intelligence",
+          "description": "Threat feeds, IOCs, adversary tracking"
+        }
+      ]
+    },
+    {
+      "name": "50-59-incident-response",
+      "description": "Security incidents and response services",
+      "children": [
+        {
+          "name": "51-active-incidents",
+          "description": "Ongoing incident investigations"
+        },
+        {
+          "name": "52-forensics",
+          "description": "Digital forensics, evidence collection"
+        },
+        {
+          "name": "53-malware-analysis",
+          "description": "Malware samples, reverse engineering"
+        },
+        {
+          "name": "54-incident-reports",
+          "description": "Post-incident reports, lessons learned"
+        }
+      ]
+    },
+    {
+      "name": "60-69-tools-resources",
+      "description": "Security tools, scripts, and knowledge base",
+      "children": [
+        {
+          "name": "61-custom-tools",
+          "description": "Custom scripts, exploits, automation"
+        },
+        {
+          "name": "62-tool-configs",
+          "description": "Tool configurations, wordlists, payloads"
+        },
+        {
+          "name": "63-knowledge-base",
+          "description": "Techniques, checklists, playbooks"
+        },
+        {
+          "name": "64-training",
+          "description": "Team training, certifications, labs"
+        }
+      ]
+    },
+    {
+      "name": "70-79-business-operations",
+      "description": "Sales, marketing, and business operations",
+      "children": [
+        {
+          "name": "71-proposals-contracts",
+          "description": "Service proposals, SOWs, NDAs"
+        },
+        {
+          "name": "72-sales-marketing",
+          "description": "Sales materials, case studies, website"
+        },
+        {
+          "name": "73-finance",
+          "description": "Invoices, expenses, financial records"
+        },
+        {
+          "name": "74-legal-insurance",
+          "description": "Legal docs, E&O insurance, liability"
+        },
+        {
+          "name": "75-hr-team",
+          "description": "Team, hiring, background checks"
+        }
+      ]
+    },
+    {
+      "name": "80-89-internal-security",
+      "description": "Firm's own security and compliance",
+      "children": [
+        {
+          "name": "81-internal-policies",
+          "description": "Security policies, procedures, standards"
+        },
+        {
+          "name": "82-certifications",
+          "description": "Firm certifications, accreditations"
+        },
+        {
+          "name": "83-audits",
+          "description": "External audits of the firm"
+        }
+      ]
+    }
+  ]
+}

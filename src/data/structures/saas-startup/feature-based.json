@@ -1,0 +1,112 @@
+{
+  "businessType": "saas-startup",
+  "businessName": "SaaS Startup",
+  "philosophy": "feature-based",
+  "philosophyName": "Feature-Based",
+  "description": "Organized by product features and business functions. Ideal for product-focused teams building multiple features or modules.",
+  "lastUpdated": "2025-10-17",
+  "structure": [
+    {
+      "name": "core-product",
+      "description": "Core product features and functionality",
+      "children": [
+        {
+          "name": "feature-auth",
+          "description": "Authentication and user management"
+        },
+        {
+          "name": "feature-dashboard",
+          "description": "Main dashboard and overview features"
+        },
+        {
+          "name": "feature-analytics",
+          "description": "Analytics and reporting features"
+        },
+        {
+          "name": "feature-integrations",
+          "description": "Third-party integrations and APIs"
+        },
+        {
+          "name": "feature-billing",
+          "description": "Billing, subscriptions, and payments"
+        }
+      ]
+    },
+    {
+      "name": "go-to-market",
+      "description": "Sales, marketing, and customer acquisition",
+      "children": [
+        {
+          "name": "sales-materials",
+          "description": "Sales decks, proposals, demo scripts"
+        },
+        {
+          "name": "marketing-campaigns",
+          "description": "Campaign assets, content, email templates"
+        },
+        {
+          "name": "website-content",
+          "description": "Website copy, landing pages, blog"
+        }
+      ]
+    },
+    {
+      "name": "customer-operations",
+      "description": "Customer success, support, and retention",
+      "children": [
+        {
+          "name": "onboarding",
+          "description": "Customer onboarding flows and materials"
+        },
+        {
+          "name": "support",
+          "description": "Help docs, FAQs, support tickets"
+        },
+        {
+          "name": "customer-data",
+          "description": "Usage data, feedback, surveys"
+        }
+      ]
+    },
+    {
+      "name": "business-operations",
+      "description": "Finance, legal, HR, and general operations",
+      "children": [
+        {
+          "name": "finance",
+          "description": "Financial records, budgets, expenses"
+        },
+        {
+          "name": "legal",
+          "description": "Contracts, compliance, policies"
+        },
+        {
+          "name": "people",
+          "description": "HR, hiring, employee records"
+        },
+        {
+          "name": "investors",
+          "description": "Investor materials, updates, board docs"
+        }
+      ]
+    },
+    {
+      "name": "platform-infrastructure",
+      "description": "Platform architecture, DevOps, and security",
+      "children": [
+        {
+          "name": "architecture",
+          "description": "System architecture, technical specs"
+        },
+        {
+          "name": "devops",
+          "description": "Deployment, CI/CD, infrastructure"
+        },
+        {
+          "name": "security",
+          "description": "Security policies, compliance, audits"
+        }
+      ]
+    }
+  ]
+}

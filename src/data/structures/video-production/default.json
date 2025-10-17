@@ -1,0 +1,44 @@
+{
+  "businessType": "video-production",
+  "businessName": "Video Production Company",
+  "philosophy": "default",
+  "philosophyName": "Standard",
+  "description": "A flexible folder structure for video production businesses that organizes projects, marketing, legal, finances, and resources in a clear hierarchy.",
+  "lastUpdated": "2025-10-16",
+  "structure": [
+    {
+      "name": "01-projects",
+      "description": "Active client projects and work-in-progress",
+      "children": [
+        {
+          "name": "active",
+          "description": "Currently active projects"
+        },
+        {
+          "name": "archive",
+          "description": "Completed projects"
+        }
+      ]
+    },
+    {
+      "name": "02-marketing",
+      "description": "Marketing materials, campaigns, and brand assets"
+    },
+    {
+      "name": "03-legal",
+      "description": "Contracts, licenses, and legal documents"
+    },
+    {
+      "name": "04-finances",
+      "description": "Invoices, receipts, and financial records"
+    },
+    {
+      "name": "05-resources",
+      "description": "Stock footage, music, fonts, and other reusable assets"
+    },
+    {
+      "name": "06-templates",
+      "description": "Project templates, presets, and boilerplates"
+    }
+  ]
+}

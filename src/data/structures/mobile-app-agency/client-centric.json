@@ -1,0 +1,68 @@
+{
+  "businessType": "mobile-app-agency",
+  "businessName": "Mobile App Development Agency",
+  "philosophy": "client-centric",
+  "philosophyName": "Client-Centric",
+  "description": "One main folder per client containing all project-related materials. Simple hierarchy for agencies that prioritize client relationships.",
+  "lastUpdated": "2025-10-17",
+  "structure": [
+    {
+      "name": "clients",
+      "description": "One folder per client with all their projects and materials",
+      "children": [
+        {
+          "name": "_template-client-folder",
+          "description": "Template for new client folders",
+          "children": [
+            {
+              "name": "01-onboarding",
+              "description": "Contracts, SOW, discovery, kickoff"
+            },
+            {
+              "name": "02-projects",
+              "description": "All app projects for this client"
+            },
+            {
+              "name": "03-communications",
+              "description": "Emails, meeting notes, status reports"
+            },
+            {
+              "name": "04-billing",
+              "description": "Invoices, payments, expenses"
+            },
+            {
+              "name": "05-deliverables",
+              "description": "Final deliverables, app store assets"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "agency-resources",
+      "description": "Shared agency resources and templates",
+      "children": [
+        {
+          "name": "design-resources",
+          "description": "Design systems, UI kits, templates"
+        },
+        {
+          "name": "code-libraries",
+          "description": "Reusable code, boilerplates, SDKs"
+        },
+        {
+          "name": "templates",
+          "description": "Proposal templates, contract templates"
+        }
+      ]
+    },
+    {
+      "name": "marketing",
+      "description": "Agency marketing, portfolio, website"
+    },
+    {
+      "name": "operations",
+      "description": "Finance, legal, HR, internal operations"
+    }
+  ]
+}

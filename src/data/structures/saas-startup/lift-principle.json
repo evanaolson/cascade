@@ -1,0 +1,58 @@
+{
+  "businessType": "saas-startup",
+  "businessName": "SaaS Startup",
+  "philosophy": "lift-principle",
+  "philosophyName": "LIFT Principle",
+  "description": "Flat, adaptable structure following LIFT principles (Locate, Identify, Flat, Try DRY). Minimal nesting, grows with your business.",
+  "lastUpdated": "2025-10-17",
+  "structure": [
+    {
+      "name": "product",
+      "description": "All product-related work: engineering, design, specs"
+    },
+    {
+      "name": "customers",
+      "description": "Customer success, support, feedback, analytics"
+    },
+    {
+      "name": "sales",
+      "description": "Sales materials, pipeline, proposals, CRM data"
+    },
+    {
+      "name": "marketing",
+      "description": "Campaigns, content, brand assets, analytics"
+    },
+    {
+      "name": "finance",
+      "description": "Financial records, invoices, budgets, expenses"
+    },
+    {
+      "name": "legal",
+      "description": "Contracts, compliance, policies, terms"
+    },
+    {
+      "name": "people",
+      "description": "HR, hiring, employee docs, team resources"
+    },
+    {
+      "name": "investors",
+      "description": "Pitch materials, updates, board docs, cap table"
+    },
+    {
+      "name": "metrics",
+      "description": "Dashboards, KPIs, SaaS metrics, reports"
+    },
+    {
+      "name": "security",
+      "description": "Security docs, compliance, audits, certifications"
+    },
+    {
+      "name": "integrations",
+      "description": "API docs, partner integrations, webhooks"
+    },
+    {
+      "name": "operations",
+      "description": "General ops, processes, tools, infrastructure"
+    }
+  ]
+}

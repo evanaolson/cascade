@@ -1,0 +1,130 @@
+{
+  "businessType": "youtube-creator",
+  "businessName": "YouTube Channel/Creator Business",
+  "philosophy": "content-series",
+  "philosophyName": "Content Series",
+  "description": "Organized by video series and content types. Ideal for creators producing multiple series or content verticals.",
+  "lastUpdated": "2025-10-17",
+  "structure": [
+    {
+      "name": "series",
+      "description": "Individual video series and content verticals",
+      "children": [
+        {
+          "name": "_series-template",
+          "description": "Template for each series",
+          "children": [
+            {
+              "name": "planning",
+              "description": "Series ideas, episode list, scripts"
+            },
+            {
+              "name": "footage",
+              "description": "Raw footage for this series"
+            },
+            {
+              "name": "editing",
+              "description": "Editing projects for episodes"
+            },
+            {
+              "name": "final-videos",
+              "description": "Published episodes"
+            },
+            {
+              "name": "assets",
+              "description": "Series-specific graphics, thumbnails"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "one-off-videos",
+      "description": "Standalone videos not part of a series"
+    },
+    {
+      "name": "shorts",
+      "description": "YouTube Shorts content",
+      "children": [
+        {
+          "name": "planning",
+          "description": "Short ideas, scripts"
+        },
+        {
+          "name": "filming",
+          "description": "Raw footage for shorts"
+        },
+        {
+          "name": "editing",
+          "description": "Shorts editing projects"
+        },
+        {
+          "name": "published",
+          "description": "Published shorts"
+        }
+      ]
+    },
+    {
+      "name": "channel-assets",
+      "description": "Shared assets and branding",
+      "children": [
+        {
+          "name": "branding",
+          "description": "Channel art, logo, graphics"
+        },
+        {
+          "name": "templates",
+          "description": "Thumbnail templates, graphics templates"
+        },
+        {
+          "name": "music-library",
+          "description": "Background music, SFX"
+        },
+        {
+          "name": "b-roll",
+          "description": "Reusable b-roll footage"
+        }
+      ]
+    },
+    {
+      "name": "monetization",
+      "description": "Sponsors, merch, memberships",
+      "children": [
+        {
+          "name": "sponsors",
+          "description": "Brand deals, sponsor materials"
+        },
+        {
+          "name": "affiliates",
+          "description": "Affiliate links, tracking"
+        },
+        {
+          "name": "products",
+          "description": "Merch, digital products, courses"
+        }
+      ]
+    },
+    {
+      "name": "growth-marketing",
+      "description": "Channel growth and promotion",
+      "children": [
+        {
+          "name": "analytics",
+          "description": "Performance data, insights"
+        },
+        {
+          "name": "social-media",
+          "description": "Cross-platform promotion"
+        },
+        {
+          "name": "collaborations",
+          "description": "Collabs, guest appearances"
+        }
+      ]
+    },
+    {
+      "name": "business",
+      "description": "Finance, contracts, equipment, team"
+    }
+  ]
+}

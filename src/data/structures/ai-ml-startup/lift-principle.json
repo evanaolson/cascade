@@ -1,0 +1,66 @@
+{
+  "businessType": "ai-ml-startup",
+  "businessName": "AI/ML Startup",
+  "philosophy": "lift-principle",
+  "philosophyName": "LIFT Principle",
+  "description": "Flat structure optimized for fast iteration and experimentation. Easy to locate datasets, models, and experiments.",
+  "lastUpdated": "2025-10-17",
+  "structure": [
+    {
+      "name": "datasets",
+      "description": "All data: raw, processed, training, validation"
+    },
+    {
+      "name": "experiments",
+      "description": "Experiment notebooks, logs, hyperparameters"
+    },
+    {
+      "name": "models",
+      "description": "Model artifacts, checkpoints, production models"
+    },
+    {
+      "name": "pipelines",
+      "description": "ML pipelines, training scripts, data processing"
+    },
+    {
+      "name": "infrastructure",
+      "description": "Compute configs, cloud setup, GPU clusters"
+    },
+    {
+      "name": "deployment",
+      "description": "Model serving, APIs, containers, monitoring"
+    },
+    {
+      "name": "evaluation",
+      "description": "Metrics, benchmarks, model comparisons"
+    },
+    {
+      "name": "research",
+      "description": "Papers, literature, research notes"
+    },
+    {
+      "name": "product",
+      "description": "Application code, UI, user-facing features"
+    },
+    {
+      "name": "safety",
+      "description": "Validation, bias testing, ethics, security"
+    },
+    {
+      "name": "customers",
+      "description": "Customer use cases, feedback, support"
+    },
+    {
+      "name": "business",
+      "description": "Sales, marketing, finance, legal"
+    },
+    {
+      "name": "team",
+      "description": "HR, hiring, team resources"
+    },
+    {
+      "name": "investors",
+      "description": "Investor materials, board docs"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "businessType": "web-dev-agency",
+  "businessName": "Web Development Agency",
+  "philosophy": "client-centric",
+  "philosophyName": "Client-Centric",
+  "description": "One folder per client with all projects, designs, hosting info, and communications in one place.",
+  "lastUpdated": "2025-10-17",
+  "structure": [
+    {
+      "name": "clients",
+      "description": "One folder per client",
+      "children": [
+        {
+          "name": "_template-client",
+          "description": "Template structure for new clients",
+          "children": [
+            {
+              "name": "01-onboarding",
+              "description": "Contract, discovery, project scope"
+            },
+            {
+              "name": "02-design",
+              "description": "Designs, mockups, brand assets"
+            },
+            {
+              "name": "03-development",
+              "description": "Code, repos, technical docs"
+            },
+            {
+              "name": "04-content",
+              "description": "Website copy, images, media files"
+            },
+            {
+              "name": "05-hosting-domains",
+              "description": "Hosting details, domain, SSL, credentials"
+            },
+            {
+              "name": "06-launch",
+              "description": "Pre-launch checklist, launch docs, handoff"
+            },
+            {
+              "name": "07-maintenance",
+              "description": "Updates, backups, support requests"
+            },
+            {
+              "name": "08-billing",
+              "description": "Invoices, payments, project expenses"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "agency-resources",
+      "description": "Shared templates and resources",
+      "children": [
+        {
+          "name": "themes-templates",
+          "description": "Starter themes and templates"
+        },
+        {
+          "name": "code-libraries",
+          "description": "Reusable code and plugins"
+        },
+        {
+          "name": "design-assets",
+          "description": "UI kits, icons, stock images"
+        }
+      ]
+    },
+    {
+      "name": "marketing",
+      "description": "Agency portfolio, website, marketing"
+    },
+    {
+      "name": "operations",
+      "description": "Finance, legal, HR, tools"
+    }
+  ]
+}

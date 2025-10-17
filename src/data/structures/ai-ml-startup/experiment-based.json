@@ -1,0 +1,102 @@
+{
+  "businessType": "ai-ml-startup",
+  "businessName": "AI/ML Startup",
+  "philosophy": "experiment-based",
+  "philosophyName": "Experiment-Based",
+  "description": "Organized by experiments and research projects. Each experiment contains data, code, models, and results.",
+  "lastUpdated": "2025-10-17",
+  "structure": [
+    {
+      "name": "experiments",
+      "description": "Individual experiments and research projects",
+      "children": [
+        {
+          "name": "active",
+          "description": "Currently active experiments"
+        },
+        {
+          "name": "completed",
+          "description": "Finished experiments with results"
+        },
+        {
+          "name": "archived",
+          "description": "Old or unsuccessful experiments"
+        },
+        {
+          "name": "_experiment-template",
+          "description": "Template for new experiments",
+          "children": [
+            {
+              "name": "data",
+              "description": "Datasets specific to this experiment"
+            },
+            {
+              "name": "code",
+              "description": "Training code, notebooks, scripts"
+            },
+            {
+              "name": "models",
+              "description": "Model checkpoints and artifacts"
+            },
+            {
+              "name": "results",
+              "description": "Metrics, visualizations, findings"
+            },
+            {
+              "name": "notes",
+              "description": "Experiment log, hypotheses, conclusions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "shared-resources",
+      "description": "Shared datasets, models, and utilities",
+      "children": [
+        {
+          "name": "datasets",
+          "description": "Shared datasets used across experiments"
+        },
+        {
+          "name": "models",
+          "description": "Pre-trained models, baselines"
+        },
+        {
+          "name": "code-libraries",
+          "description": "Shared utilities, helper functions"
+        }
+      ]
+    },
+    {
+      "name": "production",
+      "description": "Production models and deployment",
+      "children": [
+        {
+          "name": "deployed-models",
+          "description": "Currently deployed production models"
+        },
+        {
+          "name": "infrastructure",
+          "description": "Deployment configs, serving infrastructure"
+        },
+        {
+          "name": "monitoring",
+          "description": "Production monitoring, drift detection"
+        }
+      ]
+    },
+    {
+      "name": "research",
+      "description": "Research papers, literature, knowledge base"
+    },
+    {
+      "name": "product",
+      "description": "Application layer, APIs, user interfaces"
+    },
+    {
+      "name": "business",
+      "description": "Customers, sales, marketing, operations"
+    }
+  ]
+}

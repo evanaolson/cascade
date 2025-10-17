@@ -1,0 +1,186 @@
+{
+  "businessType": "devops-cloud-services",
+  "businessName": "DevOps/Cloud Services Company",
+  "philosophy": "default",
+  "philosophyName": "Johnny Decimal",
+  "description": "Structure for DevOps and cloud infrastructure companies managing client environments, deployments, monitoring, and automation.",
+  "lastUpdated": "2025-10-17",
+  "structure": [
+    {
+      "name": "10-19-client-environments",
+      "description": "Client infrastructure and environment management",
+      "children": [
+        {
+          "name": "11-active-clients",
+          "description": "Currently managed client environments"
+        },
+        {
+          "name": "12-infrastructure-configs",
+          "description": "IaC templates, Terraform, CloudFormation"
+        },
+        {
+          "name": "13-deployment-pipelines",
+          "description": "CI/CD pipelines, workflows, automation"
+        },
+        {
+          "name": "14-monitoring-alerts",
+          "description": "Monitoring configurations, alert rules, dashboards"
+        }
+      ]
+    },
+    {
+      "name": "20-29-cloud-platforms",
+      "description": "Multi-cloud platform management and configurations",
+      "children": [
+        {
+          "name": "21-aws",
+          "description": "AWS accounts, configs, cost management"
+        },
+        {
+          "name": "22-azure",
+          "description": "Azure subscriptions, resource groups"
+        },
+        {
+          "name": "23-gcp",
+          "description": "Google Cloud projects and configurations"
+        },
+        {
+          "name": "24-hybrid-on-prem",
+          "description": "On-premise infrastructure, hybrid setups"
+        }
+      ]
+    },
+    {
+      "name": "30-39-automation-tooling",
+      "description": "Automation tools, scripts, and orchestration",
+      "children": [
+        {
+          "name": "31-ansible-playbooks",
+          "description": "Ansible playbooks, roles, inventories"
+        },
+        {
+          "name": "32-terraform-modules",
+          "description": "Terraform modules, state management"
+        },
+        {
+          "name": "33-scripts-utilities",
+          "description": "Custom scripts, utilities, automation tools"
+        },
+        {
+          "name": "34-containers",
+          "description": "Docker files, Kubernetes manifests, Helm charts"
+        }
+      ]
+    },
+    {
+      "name": "40-49-security-compliance",
+      "description": "Security configurations, compliance, and hardening",
+      "children": [
+        {
+          "name": "41-security-configs",
+          "description": "Security groups, IAM policies, access controls"
+        },
+        {
+          "name": "42-secrets-management",
+          "description": "Vault configs, secrets rotation, key management"
+        },
+        {
+          "name": "43-compliance",
+          "description": "Compliance frameworks, audit logs, evidence"
+        },
+        {
+          "name": "44-disaster-recovery",
+          "description": "Backup configs, DR plans, recovery procedures"
+        }
+      ]
+    },
+    {
+      "name": "50-59-monitoring-observability",
+      "description": "Monitoring, logging, and observability stack",
+      "children": [
+        {
+          "name": "51-metrics-monitoring",
+          "description": "Prometheus, Grafana, CloudWatch configs"
+        },
+        {
+          "name": "52-logging",
+          "description": "ELK, Splunk, log aggregation configs"
+        },
+        {
+          "name": "53-apm-tracing",
+          "description": "APM tools, distributed tracing, profiling"
+        },
+        {
+          "name": "54-incident-response",
+          "description": "Runbooks, incident reports, post-mortems"
+        }
+      ]
+    },
+    {
+      "name": "60-69-cost-optimization",
+      "description": "Cost management, optimization, and FinOps",
+      "children": [
+        {
+          "name": "61-cost-analysis",
+          "description": "Cost reports, usage analytics, forecasts"
+        },
+        {
+          "name": "62-optimization-recommendations",
+          "description": "Cost savings recommendations, right-sizing"
+        },
+        {
+          "name": "63-reserved-instances",
+          "description": "RI planning, savings plans, commitments"
+        }
+      ]
+    },
+    {
+      "name": "70-79-documentation-knowledge",
+      "description": "Documentation, runbooks, and knowledge base",
+      "children": [
+        {
+          "name": "71-architecture-docs",
+          "description": "Architecture diagrams, design docs, ADRs"
+        },
+        {
+          "name": "72-runbooks",
+          "description": "Operational runbooks, procedures, checklists"
+        },
+        {
+          "name": "73-knowledge-base",
+          "description": "How-to guides, troubleshooting, best practices"
+        },
+        {
+          "name": "74-training",
+          "description": "Team training, certifications, learning resources"
+        }
+      ]
+    },
+    {
+      "name": "80-89-business-operations",
+      "description": "Client management, sales, and business operations",
+      "children": [
+        {
+          "name": "81-client-contracts",
+          "description": "Service agreements, SLAs, SOWs"
+        },
+        {
+          "name": "82-proposals-quotes",
+          "description": "Proposals, infrastructure quotes, estimates"
+        },
+        {
+          "name": "83-finance",
+          "description": "Invoices, expenses, cloud billing passthrough"
+        },
+        {
+          "name": "84-sales-marketing",
+          "description": "Sales materials, case studies, website"
+        },
+        {
+          "name": "85-hr-team",
+          "description": "Team, hiring, employee records"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "businessType": "saas-startup",
+  "businessName": "SaaS Startup",
+  "philosophy": "default",
+  "philosophyName": "Johnny Decimal",
+  "description": "Numbered hierarchical structure for SaaS startups covering product development, customer success, go-to-market strategy, and operations.",
+  "lastUpdated": "2025-10-17",
+  "structure": [
+    {
+      "name": "10-19-product",
+      "description": "Product development, engineering, and technical documentation",
+      "children": [
+        {
+          "name": "11-engineering",
+          "description": "Source code repositories, technical specs, architecture docs"
+        },
+        {
+          "name": "12-product-management",
+          "description": "Product roadmaps, feature specs, user stories, PRDs"
+        },
+        {
+          "name": "13-design",
+          "description": "UI/UX designs, wireframes, design systems, user research"
+        },
+        {
+          "name": "14-qa-testing",
+          "description": "Test plans, bug reports, QA documentation"
+        },
+        {
+          "name": "15-devops",
+          "description": "Deployment configs, CI/CD pipelines, infrastructure docs"
+        }
+      ]
+    },
+    {
+      "name": "20-29-customers",
+      "description": "Customer success, support, and relationship management",
+      "children": [
+        {
+          "name": "21-customer-success",
+          "description": "Onboarding materials, success playbooks, health scores"
+        },
+        {
+          "name": "22-support",
+          "description": "Support tickets, knowledge base articles, troubleshooting guides"
+        },
+        {
+          "name": "23-customer-feedback",
+          "description": "Feature requests, surveys, user interviews, NPS data"
+        },
+        {
+          "name": "24-customer-data",
+          "description": "Usage analytics, customer profiles, retention metrics"
+        }
+      ]
+    },
+    {
+      "name": "30-39-sales-marketing",
+      "description": "Go-to-market strategy, sales operations, and marketing campaigns",
+      "children": [
+        {
+          "name": "31-sales",
+          "description": "Sales decks, proposals, pipeline data, CRM exports"
+        },
+        {
+          "name": "32-marketing",
+          "description": "Campaign assets, content calendar, marketing analytics"
+        },
+        {
+          "name": "33-website",
+          "description": "Website content, landing pages, blog posts, SEO"
+        },
+        {
+          "name": "34-partnerships",
+          "description": "Partner agreements, co-marketing materials, integration docs"
+        },
+        {
+          "name": "35-brand",
+          "description": "Logo files, brand guidelines, marketing templates"
+        }
+      ]
+    },
+    {
+      "name": "40-49-operations",
+      "description": "Business operations, finance, legal, and HR",
+      "children": [
+        {
+          "name": "41-finance",
+          "description": "Financial statements, invoices, budgets, expenses"
+        },
+        {
+          "name": "42-legal",
+          "description": "Contracts, NDAs, terms of service, privacy policies"
+        },
+        {
+          "name": "43-hr-people",
+          "description": "Employee records, hiring, onboarding, policies"
+        },
+        {
+          "name": "44-investors",
+          "description": "Pitch decks, cap tables, investor updates, board materials"
+        },
+        {
+          "name": "45-metrics-reporting",
+          "description": "SaaS metrics, dashboards, monthly reports, OKRs"
+        }
+      ]
+    },
+    {
+      "name": "50-59-integrations",
+      "description": "Third-party integrations, APIs, and partner technical docs",
+      "children": [
+        {
+          "name": "51-api-docs",
+          "description": "API documentation, webhooks, developer guides"
+        },
+        {
+          "name": "52-integration-partners",
+          "description": "Partner API keys, integration specs, technical requirements"
+        }
+      ]
+    },
+    {
+      "name": "60-69-security-compliance",
+      "description": "Security protocols, compliance documentation, and audits",
+      "children": [
+        {
+          "name": "61-security",
+          "description": "Security policies, incident reports, penetration tests"
+        },
+        {
+          "name": "62-compliance",
+          "description": "SOC 2, GDPR, HIPAA documentation, audit reports"
+        }
+      ]
+    }
+  ]
+}

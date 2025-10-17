@@ -1,0 +1,126 @@
+{
+  "businessType": "social-media-agency",
+  "businessName": "Social Media Management Agency",
+  "philosophy": "client-centric",
+  "philosophyName": "Client-Centric",
+  "description": "Organized by client with all social assets per client. Ideal for agencies managing dedicated account teams.",
+  "lastUpdated": "2025-10-17",
+  "structure": [
+    {
+      "name": "clients",
+      "description": "Individual client folders",
+      "children": [
+        {
+          "name": "client-alpha",
+          "description": "Example client structure",
+          "children": [
+            {
+              "name": "brand-assets",
+              "description": "Logos, guidelines, brand kit"
+            },
+            {
+              "name": "content-library",
+              "description": "All created content for this client"
+            },
+            {
+              "name": "calendars",
+              "description": "Monthly content calendars"
+            },
+            {
+              "name": "campaigns",
+              "description": "Campaign materials and results"
+            },
+            {
+              "name": "analytics",
+              "description": "Reports, insights, performance data"
+            },
+            {
+              "name": "communications",
+              "description": "Client emails, meeting notes"
+            },
+            {
+              "name": "contracts",
+              "description": "Client agreements, SOWs"
+            }
+          ]
+        },
+        {
+          "name": "client-beta",
+          "description": "Another client with same structure"
+        }
+      ]
+    },
+    {
+      "name": "prospective-clients",
+      "description": "Pitches and potential clients",
+      "children": [
+        {
+          "name": "proposals",
+          "description": "Pitch decks, proposals, quotes"
+        },
+        {
+          "name": "discovery",
+          "description": "Research, competitive analysis"
+        }
+      ]
+    },
+    {
+      "name": "content-production",
+      "description": "Centralized content creation resources",
+      "children": [
+        {
+          "name": "templates",
+          "description": "Post templates, graphic templates"
+        },
+        {
+          "name": "stock-assets",
+          "description": "Stock photos, videos, music"
+        },
+        {
+          "name": "editing-tools",
+          "description": "Presets, LUTs, filters"
+        }
+      ]
+    },
+    {
+      "name": "agency-operations",
+      "description": "Internal operations and management",
+      "children": [
+        {
+          "name": "team",
+          "description": "Staff, contractors, freelancers"
+        },
+        {
+          "name": "finance",
+          "description": "Invoices, expenses, budgets"
+        },
+        {
+          "name": "tools",
+          "description": "Software subscriptions, logins"
+        },
+        {
+          "name": "agency-marketing",
+          "description": "Agency website, portfolio, social"
+        }
+      ]
+    },
+    {
+      "name": "knowledge-base",
+      "description": "Agency resources and best practices",
+      "children": [
+        {
+          "name": "playbooks",
+          "description": "Process docs, SOPs, workflows"
+        },
+        {
+          "name": "research",
+          "description": "Industry trends, platform updates"
+        },
+        {
+          "name": "training",
+          "description": "Team training materials"
+        }
+      ]
+    }
+  ]
+}
