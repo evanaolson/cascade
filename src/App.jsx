@@ -5,7 +5,7 @@ import About from './pages/About';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/cascade">
       <div className="min-h-screen bg-gray-50">
         {/* Navigation */}
         <nav className="bg-gray-50 border-b border-gray-200">
