@@ -1,0 +1,90 @@
+{
+  "businessType": "coworking-events-venue",
+  "businessName": "Coworking & Corporate Events Venue",
+  "philosophy": "streamlined",
+  "philosophyName": "Streamlined",
+  "description": "Lean folder set for small teams that need quick access to bookings, client care, space operations, and business essentials.",
+  "lastUpdated": "2025-11-19",
+  "structure": [
+    {
+      "name": "bookings",
+      "description": "Calendars, reservations, and availability management",
+      "children": [
+        {
+          "name": "coworking",
+          "description": "Hot desk, dedicated desk, and private office reservations"
+        },
+        {
+          "name": "meeting-rooms",
+          "description": "Room bookings, layouts, AV requests"
+        },
+        {
+          "name": "events",
+          "description": "Corporate event holds, proposals, signed agreements"
+        },
+        {
+          "name": "calendar-sync",
+          "description": "Master calendars, integrations, blackout dates"
+        }
+      ]
+    },
+    {
+      "name": "client-services",
+      "description": "Member success, event clients, and community programming",
+      "children": [
+        {
+          "name": "members",
+          "description": "Onboarding, account changes, retention notes"
+        },
+        {
+          "name": "event-clients",
+          "description": "Client briefs, planning docs, feedback"
+        },
+        {
+          "name": "community",
+          "description": "Workshops, networking events, member spotlights"
+        }
+      ]
+    },
+    {
+      "name": "space-operations",
+      "description": "Facility upkeep, vendors, and on-site procedures",
+      "children": [
+        {
+          "name": "facilities",
+          "description": "Maintenance logs, inspections, work orders"
+        },
+        {
+          "name": "vendors",
+          "description": "Preferred vendors, contracts, insurance certificates"
+        },
+        {
+          "name": "front-desk",
+          "description": "SOPs, opening/closing checklists, guest policies"
+        }
+      ]
+    },
+    {
+      "name": "business-ops",
+      "description": "Finance, people, marketing, and leadership",
+      "children": [
+        {
+          "name": "finance-legal",
+          "description": "Budgets, invoices, legal templates"
+        },
+        {
+          "name": "people",
+          "description": "Hiring, onboarding, team development"
+        },
+        {
+          "name": "marketing",
+          "description": "Brand assets, campaigns, PR"
+        },
+        {
+          "name": "leadership",
+          "description": "Strategy docs, board notes, KPIs"
+        }
+      ]
+    }
+  ]
+}
